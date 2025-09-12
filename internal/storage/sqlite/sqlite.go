@@ -2,8 +2,11 @@ package sqlite
 
 import (
 	"database/sql"
+	"fmt"
 
 	"github.com/ChanchalS7/go-students-api/internal/config"
+	"github.com/ChanchalS7/go-students-api/internal/types"
+	_ "github.com/mattn/go-sqlite3"
 )
 
 type Sqlite struct {
